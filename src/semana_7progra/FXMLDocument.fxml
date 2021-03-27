@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="imprimir" prefHeight="268.0" prefWidth="587.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="semana_7progra.FXMLDocumentController">
+   <children>
+      <Button layoutX="175.0" layoutY="140.0" mnemonicParsing="false" onAction="#MostrarDatos" prefHeight="69.0" prefWidth="225.0" text="MOSTRAR DATOS">
+         <font>
+            <Font name="Century Schoolbook" size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="108.0" layoutY="67.0" text="SORTEO DE NOMBRES">
+         <font>
+            <Font size="37.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
